@@ -1,0 +1,49 @@
+body{
+	font-family: Arial,sans-serif;
+	background-color: #e5e5f7;
+	background-image:  repeating-linear-gradient(45deg, #000000 25%, transparent 25%, transparent 75%, #000000 75%, #000000), repeating-linear-gradient(45deg, #000000 25%, #e5e5f7 25%, #e5e5f7 75%, #000000 75%, #000000);
+	background-position: 0 0, 14px 14px;
+	background-size: 28px 28px;
+}
+
+.comment-container {
+	border: solid 1px #91a8c2;
+	border-radius: 5px;
+	padding:10px;
+	color:white;
+	background: #1e2f41;
+	width:80%;
+	margin:0 auto;
+}
+
+/*estilos input*/
+
+.start-input{
+	text-align: center;
+}
+
+.input{
+	padding: 30px;
+	margin: 8px;
+	font-size: 28px
+}
+
+.input:focus{
+	border: dashed 10px black ;
+}
+
+/*estilos celular*/
+
+button:hover{
+	cursor:pointer;
+}
+
+@media only screen and (max-width: 1000px){
+	button{
+		padding: 5px;
+		font-size: 15px
+	}
+	.texto{
+		font-size:30px;
+	}
+}
